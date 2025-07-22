@@ -21,10 +21,10 @@ class Config(object):
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7592341037:AAExV2-M-x9AiQlbityNXHgDKt_kLBoaXuE")
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", "26657288"))
+    APP_ID = int(os.environ.get("APP_ID", "22095082"))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "00536e431477dbb16583d5b85813aa72")
+    API_HASH = os.environ.get("API_HASH", "64dde5276da53b12fafb4c47700aec2d)
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "http://eg3skk3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
