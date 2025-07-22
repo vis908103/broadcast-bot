@@ -18,19 +18,19 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7592341037:AAExV2-M-x9AiQlbityNXHgDKt_kLBoaXuE")
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", ""))
+    APP_ID = int(os.environ.get("APP_ID", "26657288"))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "00536e431477dbb16583d5b85813aa72")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "http://eg3skk3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # Group / channel username of the support chat
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@Anime_india_divine")
 
     # List of admin user ids for special functions(Storing as an array)
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
